@@ -3,10 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CustomerComponent } from './customer/customer.component';
+import { ShopperpageComponent } from './shopperpage/shopperpage.component';
+import { CarosuleComponent } from './carosule/carosule.component';
+import { DataCardComponent } from './data-card/data-card.component';
+import { ProductcradComponent } from './productcrad/productcrad.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { CartpageComponent } from './cartpage/cartpage.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomerComponent,
+    ShopperpageComponent,
+    CarosuleComponent,
+    DataCardComponent,
+    ProductcradComponent,
+    DashboardComponent,
+    CartpageComponent
   ],
   imports: [
     BrowserModule,
