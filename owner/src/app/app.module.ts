@@ -10,6 +10,8 @@ import { DataCardComponent } from './data-card/data-card.component';
 import { ProductcradComponent } from './productcrad/productcrad.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CartpageComponent } from './cartpage/cartpage.component';
+import { LoginComponent } from './login/login.component';
+import { LayoutComponent } from './layout/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CartpageComponent } from './cartpage/cartpage.component';
     DataCardComponent,
     ProductcradComponent,
     DashboardComponent,
-    CartpageComponent
+    CartpageComponent,
+    LoginComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
